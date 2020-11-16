@@ -41,10 +41,10 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 // TODO Auto-generated method stub
                 if (isChecked) {
-                    //如果選中，顯示密碼
+                    //顯示密碼
                     password.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
                 } else {
-                    //否則隱藏密碼
+                    //隱藏密碼
                     password.setTransformationMethod(PasswordTransformationMethod.getInstance());
 
                 }
